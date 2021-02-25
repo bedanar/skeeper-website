@@ -1,0 +1,204 @@
+:root{
+    --black-color: #070D17;
+    --bg-color: #EBFFF3;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: 
+        url("../fonts/Gilroy-Bold.woff2") format("woff2"),
+        url("../fonts/Gilroy-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Gilroy";
+    src: 
+        url("../fonts/Gilroy-Regular.woff2") format("woff2"),
+        url("../fonts/Gilroy-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+  
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  html{
+    font-family: 'Gilroy', sans-serif;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  h1, h2, h3, p{
+      margin: 0;
+  }
+  .container{
+      max-width: 1200px;
+      margin: 0 auto;
+  }
+  /* .hero{
+      background-color: var(--black-color);
+  } */
+  .hero__content{
+      display: flex;
+      
+  }
+  .content__utp{
+      padding: 150px 100px 206px 100px;
+      min-width: 750px;
+      background-color: var(--black-color);
+  }
+  .utp__heading{
+    color: var(--bg-color);
+    line-height:  77.38px;
+    font-size: 64px;
+  }
+  .utp__btn{
+      padding: 18px 38px;
+      background-color: var(--bg-color);
+      font-weight: bold;
+      font-size: 18px;
+      border-radius: 20px 20px 0 20px;
+      margin-top: 68px;
+  }
+  .utp__btn a{
+    color: var(--black-color);
+  }
+  .content__photos{
+      background-color: var(--bg-color);
+      padding: 80px 115px;
+      display: flex;
+  }
+.photos_2{
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+
+
+/* Telegram */
+.telegram{
+    background-color: var(--bg-color);
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.telegram__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.telegram__gif{
+    width: 500px;
+    height: 500px;
+}
+.telegram__heading{
+    color: var(--black-color);
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: right;
+}
+
+/* Friends */
+.friends{
+    background-color: var(--black-color);
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+.telegram__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .telegram__gif{
+    width: 500px;
+    height: 500px;
+} */
+.friends__heading{
+    color: var(--bg-color);
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 600px;
+    text-align: left;
+}
+.friends__video1{
+    width: 20%;
+    height: 20%;
+}
+.telegram__content-1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.telegram__heading-2{
+    text-align: left;
+}
+.functions-list-1{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.functions-list__item h3{
+    font-size: 30px;
+}
+.functions-list__item img{
+    max-width: 70%;
+}
+
+/* Ficthes */
+
+.fitches{
+    background-color: var(--black-color);
+    padding: 115px 0;
+}
+.fitches__heading{
+    font-size: 40px;
+    font-weight: bold;
+    max-width: 600px;
+    color: var(--bg-color);
+    margin-bottom: 50px;
+}
+.fitches-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fitches-list__item{
+    margin-top: 20px;
+    background-color: var(--bg-color);
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 27px;
+    border-radius: 20px 20px 0px 20px;
+    font-size: 18px;
+    width: 580px;
+}
+
+/* Footer */
+
+.footer{
+    background-color: var(--bg-color);
+    padding-top: 115px;
+    padding-bottom: 115px;
+    display: flex;	
+    justify-content: center;
+}
+.footer__button{
+    background-color: var(--black-color);
+    padding: 28px 56px;
+    border-radius: 20px 20px 0px 20px;
+}
+.footer__button a{
+    color: var(--bg-color);
+    font-size: 20px;
+    font-weight: bold;
+}
